@@ -1,0 +1,7 @@
+{
+  "name": "Formsapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

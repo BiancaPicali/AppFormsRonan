@@ -1,0 +1,56 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <h1>For Believe</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card class="B">
+    <ion-item>
+      <ion-label>Nome</ion-label>
+      <ion-input placeholder="Fulano"></ion-input>
+    </ion-item>
+      <ion-item>
+        <ion-label>Sobrenome</ion-label>
+        <ion-input placeholder="de Tal"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Telefone</ion-label>
+        <ion-input placeholder="00000000000"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input placeholder="fulanodetal@gmail.com"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input placeholder="fulanodetal@gmail.com"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Confirmar Senha</ion-label>
+        <ion-input placeholder="fulanodetal@gmail.com"></ion-input>
+      </ion-item>
+      <ion-list>
+        <ion-item>
+          <ion-select placeholder="Gênero">
+            <ion-select-option value="homem">Homem</ion-select-option>
+            <ion-select-option value="mulher">Mulher</ion-select-option>
+            <ion-select-option value="nb">Não binário</ion-select-option>
+            <ion-select-option value="pni">Prefiro não identificar</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    <ion-item>
+      <ion-checkbox slot="start"></ion-checkbox>
+      <ion-label>Eu aceito os termos e condições</ion-label>
+    </ion-item>
+    <div class="c">
+    <ion-button>Gerar Cadastro</ion-button>
+    </div>
+  </ion-card>
+  <div class="D">
+    <ion-button>Ja tenho uma conta</ion-button>
+    </div>
+</ion-content>
